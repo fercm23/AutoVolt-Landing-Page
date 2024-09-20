@@ -9,7 +9,7 @@
 
 .header {
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 0;
     width: 100%;
     padding: 10px 5%;
@@ -30,9 +30,39 @@
     text-decoration: none;
     font-weight: 600;
     margin-left: 60px;
-    transition: .3s;
 }
 
 .navbar a:hover {
     text-decoration: underline;
 }
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.intro-content {
+    max-width: 100%;
+}
+
+.intro-content h1{
+    font-size: 58px;
+    font-weight: 900;
+    word-spacing: 10px;
+    line-height: 90px;
+}
+
+.intro-content p{
+    font-size: 19px;
+    font-weight: 600;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+
+.intro-content span {
+    color: #994102;
+}
+
+
