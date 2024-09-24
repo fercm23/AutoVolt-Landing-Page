@@ -67,8 +67,8 @@
         </section>
 
         <!--Services Section-->
-        <!--To Do: Adding title-->
-        <section class="services">
+        <!--To Do: Edit the content and modifying services-title(css)-->
+        <section class="services">s
             <div class="services-title">
                 <h1>Our Services</h1>
             </div>
@@ -148,4 +148,16 @@
 
         </section>
     </body>
+
+    <script>
+        const navEl = document.querySelector('.header');
+
+        window.addEventListener('scroll', ()=> {
+           if(window.scroll >= 56){
+            navEl.classList.add('header-scrolled');
+           } else if(window.scroll < 56){
+            navEl.classList.remove('header-scrolled');
+           }
+        });
+    </script>
 </html>
