@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
         <link rel="stylesheet" href="style.css">
         <title>
             AutoVolt Landing Page
@@ -12,7 +13,6 @@
 
     <body>
         <!--Navbar-->
-        <!-- To Do: Modify the navbar that make it better when the web scroll (css)-->
         <header class="header">
             <a href="#">
                 <img src="asset/logo.png" alt="AutoVolt Logo" class="logo">
@@ -28,7 +28,7 @@
         </header>
 
         <!--IntroductionSection-->
-        <!--To Do : Adding gradation/smth between section to make it smoother (css)-->
+        <!--To Do : Adding shadow to the title text-->
 
         <section class="home">
             <div class="intro-content">
@@ -147,18 +147,21 @@
         <section class="footer">
 
         </section>
-    </body>
 
-    <script>
-        let navEl = document.querySelector('.header');
-    
-        window.addEventListener('scroll', () => {
-            if (window.scrollY >= 56) {
-                navEl.classList.add('scrolled');
-            } else {
-                navEl.classList.remove('scrolled');
-            }
-        });
-    </script>
-    
+        <script>
+            let navEl = document.querySelector('.header');
+        
+            window.addEventListener('scroll', () => {
+                if (window.scrollY >= 56) {
+                    navEl.classList.add('scrolled');
+                } else {
+                    navEl.classList.remove('scrolled');
+                }
+            });
+        </script>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js">
+
+        </script>
+    </body>
 </html>

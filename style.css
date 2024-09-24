@@ -74,6 +74,7 @@ color pallete theme :
     word-spacing: 10px;
     line-height: 90px;
     letter-spacing: 7px;
+    text-shadow: 0px 3px 3px#000;
 }
 
 .intro-content p{
@@ -245,6 +246,30 @@ color pallete theme :
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.promo {
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.promo-titles {
+    padding-top: 70px;
+    padding-left: 10%;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    text-shadow: #000;
+}
+
+.promo-titles h1 {
+    font-size: 59px;
+    font-weight: 700;
+    letter-spacing: 5px;
 }
 
 
