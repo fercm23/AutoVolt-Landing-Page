@@ -2,9 +2,9 @@
 
 /*
 color pallete theme :
-#CACACA
-#484848
-#B23A39
+#CACACA - greyish
+#484848 - blackish
+#B23A39 - redish
 */
 
 * {
@@ -16,7 +16,6 @@ color pallete theme :
 
 .header {
     position: fixed;
-    top: 10px;
     left: 0;
     width: 100%;
     padding: 10px 5%;
@@ -28,8 +27,8 @@ color pallete theme :
     transition: all 0.5s;
 }
 
-.header-scrolled {
-    background-color: #a0a0a0;
+.scrolled {
+    background-color: #CACACA;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -165,6 +164,7 @@ color pallete theme :
 }
 
 .services-title {
+    padding-top: 70px;
     height: 100px;
     width: 100%;
     justify-content: center;

@@ -68,7 +68,7 @@
 
         <!--Services Section-->
         <!--To Do: Edit the content and modifying services-title(css)-->
-        <section class="services">s
+        <section class="services">
             <div class="services-title">
                 <h1>Our Services</h1>
             </div>
@@ -77,7 +77,7 @@
                     <div class="card-content">
                         <img src="asset/car-services.svg" alt="Services Logo" class="services-logo">
                         <h2>Car Selling</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p>Car selling is our bread and butter, we sell brand new cars of various type, brand, and model.</p>
                         <div class="btn-services">
                             <a href="#">Read More</a>
                         </div>
@@ -150,14 +150,15 @@
     </body>
 
     <script>
-        const navEl = document.querySelector('.header');
-
-        window.addEventListener('scroll', ()=> {
-           if(window.scroll >= 56){
-            navEl.classList.add('header-scrolled');
-           } else if(window.scroll < 56){
-            navEl.classList.remove('header-scrolled');
-           }
+        let navEl = document.querySelector('.header');
+    
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56) {
+                navEl.classList.add('scrolled');
+            } else {
+                navEl.classList.remove('scrolled');
+            }
         });
     </script>
+    
 </html>
