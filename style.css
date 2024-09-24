@@ -124,6 +124,7 @@
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
+    text-decoration: underline;
 }
 
 .about-content p{
@@ -142,6 +143,98 @@
     padding-top: 5%;
     margin-left: 50px;
 }
+
+.services {
+    height: 90vh;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-title {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    text-shadow: #000;
+}
+
+.services-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;;
+}
+
+.card {
+    width: 480px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    width: 19%;
+    height: auto;
+}
+
+.card h2 {
+    margin-top: 20px;
+    display: block;
+}
+
+.card p {
+    margin-top: 30px;
+    display: block;
+}
+
+.btn-services {
+    margin-top: 30px;
+    display: block;
+    width: 345px;
+    height: 50px;
+    justify-content: left;
+    align-items: center;
+}
+
+.btn-services a {
+    display: inline-flex;
+    width: 200px;
+    height: 100%;
+    background: #B23A39;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 
