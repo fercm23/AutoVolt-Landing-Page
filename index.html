@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>
             AutoVolt Landing Page
         </title>
@@ -139,7 +139,96 @@
         <!--BestPromo Section-->
         <!--To Do: Make a slider card for list of car-->
         <section class="promo">
-            
+            <div class="card-container swiper">
+                <div class="card-content">
+                    <div class="swiper-wrapper">
+                        <article class="card-article swiper-slide">
+                            <div class="card-image">
+                                <img src="asset/ayla.svg" alt="Daihatsu Ayla">
+                            </div>
+
+                            <div class="card-data">
+                                <h3>Daihatsu Ayla</h3>
+                                <div class="card-button">
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card-article swiper-slide">
+                            <div class="card-image">
+                                <img src="asset/corrola cross.svg" alt="Toyota Corrola Cross">
+                            </div>
+
+                            <div class="card-data">
+                                <h3>Toyota Corrola Cross</h3>
+                                <div class="card-button">
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card-article swiper-slide">
+                            <div class="card-image">
+                                <img src="asset/fortuner.svg" alt="Toyota Fortuner">
+                            </div>
+
+                            <div class="card-data">
+                                <h3>Toyota Fortuner</h3>
+                                <div class="card-button">
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card-article swiper-slide">
+                            <div class="card-image">
+                                <img src="asset/rush.svg" alt="Toyota Rush">
+                            </div>
+
+                            <div class="card-data">
+                                <h3>Toyota Rush</h3>
+                                <div class="card-button">
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card-article swiper-slide">
+                            <div class="card-image">
+                                <img src="asset/sigra.svg" alt="Daihatsu Sigra">
+                            </div>
+
+                            <div class="card-data">
+                                <h3>Daihatsu Sigra</h3>
+                                <div class="card-button">
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card-article swiper-slide">
+                            <div class="card-image">
+                                <img src="asset/yaris.svg" alt="Toyota Yaris">
+                            </div>
+
+                            <div class="card-data">
+                                <h3>Toyota Yaris</h3>
+                                <div class="card-button">
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card-article swiper-slide">
+                            <div class="card-image">
+                                <img src="asset/yaris_gr.svg" alt="Toyota Yaris GR">
+                            </div>
+
+                            <div class="card-data">
+                                <h3>Toyota Yaris GR</h3>
+                                <div class="card-button">
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!--Footer Section-->
@@ -147,21 +236,8 @@
         <section class="footer">
 
         </section>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
 
-        <script>
-            let navEl = document.querySelector('.header');
-        
-            window.addEventListener('scroll', () => {
-                if (window.scrollY >= 56) {
-                    navEl.classList.add('scrolled');
-                } else {
-                    navEl.classList.remove('scrolled');
-                }
-            });
-        </script>
-
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js">
-
-        </script>
     </body>
 </html>
