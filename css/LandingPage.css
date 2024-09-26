@@ -1,0 +1,324 @@
+/* ======= 1. Common CSS ======= */
+.header__menu-item-5 {
+color: #000000 !important;
+letter-spacing: 1.38px;
+font-size: 23px !important;
+font-weight: 600 !important;
+}
+
+.landing-pege__row {
+    margin-top: 58px;
+    margin-left: 60px;
+    margin-right: 60px;
+    flex: 1;
+    display: flex;
+    max-width: 1320px;
+    width: 100%;
+    
+    @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+}
+
+.landing-page__row--television__image {
+    height: 62px;
+    align-self: center;
+    width: 62px;
+}
+
+.landing-page__row--television_column {
+    margin-left: -6px;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+    
+.section {
+    margin-bottom: 158px;
+    gap: 106px;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 1050px) {
+        gap: 79px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        gap: 53px;
+    }
+}
+
+.header {
+    margin-left: 22px;
+    margin-right: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.header__menu-item-10 {
+    letter-spacing: 1.38px;
+}
+
+.content__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__feature {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    }
+}
+
+.feature__text-column {
+    gap: 58px;
+    display: flex;
+    width: 44%;
+    flex-direction: colum;
+    align-items: end;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        gap: 29px;
+    }
+}
+
+/* ======= 2. Page CSS ======= */
+
+.landing-page {
+    height: 1036px;
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+    @media only screen and (max-width: 1050px) {    
+    height: auto;
+        }
+}
+    
+.landing-page__image {
+    height: 340px;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 46%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 25%;
+    right: 4%;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.rowhome {
+    height: 982px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+    /*background-image: url();*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+    }
+
+    @media only screen and (max-width: 550px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+.landing-page__row--television__column__title {
+    color: #000000 !important;
+    letter-spacing: 3.6px;       
+    font-size: 27.67px !important;       
+    font-weight: 900 !important;
+    font-style: italic !important;
+    @media only screen and (max-width: 1050px) {
+        font-size: 25px !important;    
+    }
+    
+    @media only screen and (max-width: 550px) {
+        font—size: 23px !important;
+    }
+}    
+}   
+
+.landing-page__row--television__colunn__subtitle {
+    color: #000000 !important;
+    margin-top: -4px;
+    letter-spacing: 1.66px;
+    font-size: 12.8px !important;
+    font-weight: 566 !important;
+    position: relative;
+}
+
+.content_button {
+    letter-spacing: 4.21px;
+    font-weight: 700;
+    text-align: center;
+    min-width: 476px;
+}
+
+.feature__image {
+    height: 434px;
+    margin-bottom: 40px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius : 1px ;
+    border-bottom-right-radius: 1px;
+    align-self: end;
+    width: 50%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px){
+        align-self: auto;
+        width: 100%;
+    }   
+}
+
+.text-column__title {
+    color: #000000 !important;
+    letter-spacing: 11.6px;
+    text-transform: uppercase;
+    font-size: 58px !important;
+    font-weight: 500 !important;
+    text-shadow: -3px 4px 8px #00000066;
+    @media only screen and (max-width: 1050px) {
+        font-size: 50px !important;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 44px !important;
+    }
+}
+
+.text-column__description {
+    color: #000000 !important;
+    letter-spacing: 0.95px;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    width: 88%;
+    line-height: 38px;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }    
+}
+    
+.landing-page-l {
+    height: 1036px;
+    background-color: var(--white_a700);
+    width: 100%;
+    position: relative;
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+    }
+}
+
+.landing-page__image-1 {
+    height: 340px;
+    width: 46%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 25%;
+    right: 4%;
+    margin: auto;
+}
+
+.landing-page__row--television__column__title-1 {
+    letter-spacing: 3.6px;
+    font-size: 27.67px !important;
+}
+
+.landing-pege_row--television_colunn_subtitle-l {
+    margin-top: -4px;
+    letter-spacing: 1.66px;
+    font-size: 12.8px !important;
+    position: relative;
+}
+
+.rowhome-l {
+    height: 982px;
+    /*background-image: url();*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 26px;
+    margin: auto;
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding: 20px;
+    }
+}
+
+.text-column__title-l {
+    letter-spacing: 11.6px;
+    text-transform: uppercase;
+    text-shadow: -3px 4px 8px #00000066;
+}
+
+.text-column__description-1 {
+    letter-spacing: 0.95px;
+    width: 88%;
+    line-height: 38px;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.feature__image-1 {
+    height: 434px;
+    margin-bottom: 40px;
+    align-self: end;
+    width: 50%;
+    object-fit: contain;
+    border-radius: var(--radius-xs);
+    @media only screen and (max-width: 1050px) {
+        align-self: auto;
+        width: 100;
+    }
+}
+
+.content__button-1 {
+    color: var(--white_a700) !important;
+    padding-left: 34px;    
+    padding-right: 34px;  
+    background-color: var(--red__800) !important;
+    height: 86px;   
+    border-radius: 12px !important;
+}
